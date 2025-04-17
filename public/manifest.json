@@ -1,0 +1,9 @@
+{
+  "name": "FocusNest",
+  "short_name": "FocusNest",
+  "description": "スマホ使用を抑えるためのPomodoroタイマーとShortcuts連携Webアプリ",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6"
+} 
