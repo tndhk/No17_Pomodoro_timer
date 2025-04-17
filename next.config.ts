@@ -7,9 +7,7 @@ const nextConfig: NextConfig = {
 
 // PWA設定の追加
 export default withPWA({
+  dest: "public",
+  disable: process.env.NODE_ENV === "development",
   ...nextConfig,
-  pwa: {
-    dest: "public",
-    disable: process.env.NODE_ENV === "development",
-  },
 });
