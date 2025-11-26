@@ -15,6 +15,7 @@ export function useNotification() {
     const playSound = useCallback(() => {
         try {
             if (!audioContextRef.current) {
+                // eslint-disable-next-line @typescript-eslint/no-explicit-any
                 audioContextRef.current = new (window.AudioContext || (window as any).webkitAudioContext)();
             }
 
