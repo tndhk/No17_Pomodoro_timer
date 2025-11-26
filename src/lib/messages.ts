@@ -1,14 +1,19 @@
-// フォーカス用メッセージ
+// Focus messages
 export const focusMessages: string[] = [
-  "今、何に集中したい？",
-  "スマホを触る前に、目的を考えよう。",
-  "25分間、自分の未来に投資しよう。",
-  "その通知、本当に今必要？"
+  "What do you want to focus on?",
+  "Before checking your phone, think about your purpose.",
+  "Invest 25 minutes in your future.",
+  "Do you really need that notification now?",
+  "Stay focused on what matters.",
+  "Every 25 minutes brings you closer to your goals.",
+  "Silence everything, focus on one thing.",
+  "Your future self will thank you.",
+  "Deep work starts now."
 ];
 
-// 休憩用メッセージ
+// Break messages
 export const breakMessages: string[] = [
-  "よく頑張ったね！少し休憩しよう。",
-  "スクロールする前に、深呼吸1つ。",
-  "今、スマホに何を求めてる？"
+  "Great work! Take a break.",
+  "Take a deep breath before scrolling.",
+  "What are you looking for on your phone?"
 ]; 
